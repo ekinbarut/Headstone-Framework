@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Headstone.Framework.Models", "Headstone.Framework.Models\Headstone.Framework.Models.csproj", "{FFFBA51D-4B86-49A5-AB09-609F52468EA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Headstone.Framework", "Headstone.Framework\Headstone.Framework.csproj", "{651233D0-2F39-4DCD-A1AD-E0969CB7127F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Headstone.Framework.Test", "Headstone.Framework.Test\Headstone.Framework.Test.csproj", "{5D74BC8F-91EA-4CD5-B60E-7804655F3D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Headstone.Framework.SaaS.Models", "Domains\Headstone.Framework.SaaS.Models\Headstone.Framework.SaaS.Models.csproj", "{4985D69C-63EF-4DAC-8625-4AB4C9F43BDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Headstone.Framework.SaaS", "Domains\Headstone.Framework.SaaS\Headstone.Framework.SaaS.csproj", "{1A4C297C-52AA-48F6-A54B-6AD0C0FC4487}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{7AA61DE5-545A-4E6D-AA25-5356ED63FE44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFFBA51D-4B86-49A5-AB09-609F52468EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFBA51D-4B86-49A5-AB09-609F52468EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFBA51D-4B86-49A5-AB09-609F52468EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFBA51D-4B86-49A5-AB09-609F52468EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651233D0-2F39-4DCD-A1AD-E0969CB7127F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651233D0-2F39-4DCD-A1AD-E0969CB7127F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651233D0-2F39-4DCD-A1AD-E0969CB7127F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651233D0-2F39-4DCD-A1AD-E0969CB7127F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D74BC8F-91EA-4CD5-B60E-7804655F3D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D74BC8F-91EA-4CD5-B60E-7804655F3D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D74BC8F-91EA-4CD5-B60E-7804655F3D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D74BC8F-91EA-4CD5-B60E-7804655F3D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4985D69C-63EF-4DAC-8625-4AB4C9F43BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4985D69C-63EF-4DAC-8625-4AB4C9F43BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4985D69C-63EF-4DAC-8625-4AB4C9F43BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4985D69C-63EF-4DAC-8625-4AB4C9F43BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4C297C-52AA-48F6-A54B-6AD0C0FC4487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4C297C-52AA-48F6-A54B-6AD0C0FC4487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4C297C-52AA-48F6-A54B-6AD0C0FC4487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4C297C-52AA-48F6-A54B-6AD0C0FC4487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4985D69C-63EF-4DAC-8625-4AB4C9F43BDC} = {7AA61DE5-545A-4E6D-AA25-5356ED63FE44}
+		{1A4C297C-52AA-48F6-A54B-6AD0C0FC4487} = {7AA61DE5-545A-4E6D-AA25-5356ED63FE44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02041C16-BB9A-4D42-A6FE-0AA3C98836F9}
+	EndGlobalSection
+EndGlobal

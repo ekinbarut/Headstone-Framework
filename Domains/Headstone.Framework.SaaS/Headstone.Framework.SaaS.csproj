@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.2;net452</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <OutputPath>..\..\..\Releases\Headstone Framework\v3.0\</OutputPath>
+  </PropertyGroup>
+
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
+    <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.1" />
+    <PackageReference Include="Microsoft.Owin.Security" Version="3.1.0" />
+    <PackageReference Include="LinqKit" Version="1.1.8" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Headstone.Framework.Models\Headstone.Framework.Models.csproj" />
+    <ProjectReference Include="..\..\Headstone.Framework\Headstone.Framework.csproj" />
+    <ProjectReference Include="..\Headstone.Framework.SaaS.Models\Headstone.Framework.SaaS.Models.csproj" />
+  </ItemGroup>
+
+</Project>
